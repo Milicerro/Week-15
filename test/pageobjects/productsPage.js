@@ -12,12 +12,32 @@ class ProductsPage {
         return $("#add-to-cart-sauce-labs-bolt-t-shirt");
     }
 
+    get addFlecJacket() {
+        return $("#add-to-cart-sauce-labs-fleece-jacket");
+    }
+
+    get addOneesie() {
+        return $("#add-to-cart-sauce-labs-onesie");
+    }
+
     get removeBackpack() {
         return $("#remove-sauce-labs-backpack");
     }
 
     get removeBikelight() {
         return $("#remove-sauce-labs-bike-light");
+    }
+
+    get removeBoltTshirt() {
+        return $("#remove-sauce-labs-bolt-t-shirt");
+    }
+
+    get removeFlecJacket() {
+        return $("#remove-sauce-labs-fleece-jacket");
+    }
+
+    get removeOneesie() {
+        return $("#remove-sauce-labs-onesie");
     }
 
     get bpackDescrBtn() {

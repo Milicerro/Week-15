@@ -1,6 +1,6 @@
 import LogIn from "../pageobjects/logIn.js";
 
-describe ("Login with the locked out user", () => {
+describe ("Login with the locked out user.", () => {
     beforeAll("Open browser", () =>{
         browser.setWindowSize (1920, 1080);
         browser.url("https://www.saucedemo.com");

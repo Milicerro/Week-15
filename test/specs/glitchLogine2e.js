@@ -4,7 +4,7 @@ import ProductsPage from "../pageobjects/productsPage.js";
 import CheckoutPage from "../pageobjects/checkoutPage.js";
 import MenuPage from "../pageobjects/menuPage.js";
 
-describe ("Login with the performance glitch user", () => {
+describe ("Login with the performance glitch user.", () => {
     beforeAll("Open browser", () =>{
         browser.setWindowSize (1920, 1080);
         browser.url("https://www.saucedemo.com");
@@ -27,7 +27,7 @@ describe ("Login with the performance glitch user", () => {
         await expect(executionTime).toBeLessThan(3000);
     });
 
-    it ("testing adding/removing products to cart from Inventory page", async ()=> {
+    it ("testing adding/removing products to cart from Inventory page.", async ()=> {
         await ProductsPage.addBackpack.click();
         await browser.pause(1000);
         await ProductsPage.addBikelight.click();
@@ -63,7 +63,7 @@ describe ("Login with the performance glitch user", () => {
         await browser.pause(1000);
     });
 
-    it("Cancel Button works correctly, redirecting back to inventory page", async () => {
+    it("Cancel Button works correctly, redirecting back to inventory page.", async () => {
         await CheckoutPage.cancelBtn.click();
         await browser.pause(2000);
 
