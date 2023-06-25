@@ -1,4 +1,4 @@
-class footerPage {
+class FooterPage {
 
     get copyRight() {
         return $("#page_wrapper > footer > div");
@@ -17,4 +17,4 @@ class footerPage {
     }
 }
 
-export default new footerPage();
+export default new FooterPage();

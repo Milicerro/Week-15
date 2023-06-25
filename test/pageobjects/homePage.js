@@ -1,4 +1,4 @@
-class homePage {
+class HomePage {
 
     get welcomePage() {
         return $("#header_container > div.header_secondary_container > span");
@@ -13,4 +13,4 @@ class homePage {
     }
 }
 
-export default new homePage();
+export default new HomePage();

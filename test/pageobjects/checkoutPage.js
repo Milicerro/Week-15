@@ -1,4 +1,4 @@
-class checkoutPage {
+class CheckoutPage {
 
     get title() {
         return $("#header_container > div.header_secondary_container > span");
@@ -52,4 +52,4 @@ class checkoutPage {
     }
 }
 
-export default new checkoutPage();
+export default new CheckoutPage();

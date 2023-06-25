@@ -1,4 +1,4 @@
-class logIn {
+class LogIn {
 
     get loginLogo() {
         return $("#root > div > div.login_logo");
@@ -30,4 +30,4 @@ class logIn {
     }
 }
 
-export default new logIn();
+export default new LogIn();

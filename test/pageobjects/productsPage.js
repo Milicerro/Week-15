@@ -1,4 +1,4 @@
-class productsPage {
+class ProductsPage {
 
     get addBackpack() {
         return $("#add-to-cart-sauce-labs-backpack");
@@ -61,4 +61,4 @@ class productsPage {
     }
 }
 
-export default new productsPage();
+export default new ProductsPage();
