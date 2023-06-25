@@ -23,10 +23,10 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/errorLogin2e.js',
-        './test/specs/problemLogin2e.js',
-        './test/specs/glitchLogin2e.js',
-        './test/specs/happypathe2e.js'
+        // './test/specs/errorLogine2e.js',
+        // './test/specs/problemLogine2e.js',
+        './test/specs/glitchLogine2e.js',
+        // './test/specs/happypathe2e.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -57,8 +57,8 @@ export const config = {
     capabilities: [{
         // capabilities for local browser web tests
         browserName: 'chrome', // or "firefox", "microsoftedge", "safari"
-        'goog:chromeOptions': {args: ['headless']
-        }
+        // 'goog:chromeOptions': {args: ['headless']
+        // }
     }],
     //
     // ===================

@@ -2,7 +2,7 @@ import HomePage from "../pageobjects/homePage.js";
 import LogIn from "../pageobjects/logIn.js";
 import MenuPage from "../pageobjects/menuPage.js";
 
-describe ("Login with the locked out users", () => {
+describe ("Login with the problem user", () => {
     beforeAll("Open browser", () =>{
         browser.setWindowSize (1920, 1080);
         browser.url("https://www.saucedemo.com");
